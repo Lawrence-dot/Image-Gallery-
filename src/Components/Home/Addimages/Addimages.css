@@ -1,0 +1,55 @@
+.addImages {
+    background-color: rgba(0, 0, 0, 0.829);
+    backdrop-filter: blur(9px);
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    z-index: 400;
+}
+
+.card {
+    width: 290px;
+    top: 10%;
+    padding: 0.3rem .6rem;
+    max-height: 330px;
+}
+
+.submitBtn {
+    display: block;
+    position: absolute;
+    left: 38%;
+    bottom: 20px;
+    height: 30px;
+
+}
+
+.submitSpan {
+    vertical-align: middle;
+    line-height: 19px;
+    position: relative;
+    top: -6px;
+}
+
+.cancel {
+    color: red;
+    cursor: pointer;
+    text-align: end;
+    margin-right: 5px;
+    font-size: 25px;
+    font-weight: 800;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+img#output {
+    display: block;
+    margin: 2rem auto;
+}
+
+label {
+    height: 190px;
+}
+
+.uploadImg {
+    cursor: cell;
+    height: 150px;
+}
